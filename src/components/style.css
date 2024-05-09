@@ -1,0 +1,69 @@
+.body {
+  background-color: #333;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/main-pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+.main-contanier {
+  display: flex;
+  background-color: #333333ca;
+  justify-content: center;
+  align-items: center;
+  height: 91.4vh;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+nav {
+  display: flex;
+  background-color: #3333335e;
+  padding: 20px;
+  justify-content: center;
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.app-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.app-menu ul li {
+  margin-right: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.app-menu ul li:hover {
+  transform: scale(1.2);
+}
+
+.app-menu ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.app-menu ul li a:hover {
+  color: #fb6161;
+}
+ p {
+  color: #fb6161;
+}
+ h2 {
+  color: aqua;
+}
+ h1 {
+  color: rgb(203, 203, 203);
+}
