@@ -10,6 +10,7 @@ const Portfolio = () => {
             background-color: #121212;
             color: white;
             padding: 20px;
+            height: 100%
           }
 
           h1, h2 {
